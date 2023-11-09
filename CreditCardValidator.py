@@ -25,6 +25,6 @@ try:
         print("Congratulations, the entered Credit Card number is valid!")
     else:
         print("Unfortunately, you have entered an invalid Credit Card number....")
-except ZeroDivisionError:
+except TypeError:
     print("Occurence of non-numeric character is invalid... Please try again!")
     
